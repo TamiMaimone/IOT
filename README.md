@@ -1,6 +1,6 @@
 # Medição da umidade e irrigação do solo
 ## Michel Victor Gurfinkiel, Tamiris Salzano Maimone, Willian Costa
-#### Nosso projeto foi criado com a intensão de resolver o problema de excesso de umidade no solo das plantas, funcionando da seguinte forma. Um resistor de umidade do solo deve ser inserido no solo da planta para verificar a umidade  e caso estiver abaixo ou igual a 60% ativa a mini bomba submersa que irá irrigar o solo, além disso nosso projeto possui o módulo ESP8266 NodeMcu para a realização da conexão com o wi-fi e o uso do protocolo MQTT ligado ao broker thingspeak que recebe os dados do resistor de umidade.
+#### Nosso projeto foi criado com a intensão de resolver o problema de excesso ou escassez de umidade no solo das plantas, funcionando da seguinte forma. Um resistor de umidade do solo deve ser inserido no solo da planta para verificar a umidade e caso estiver abaixo ou igual a 60% ativa a mini bomba submersa, que irá irrigar o solo. Além disso nosso projeto possui o módulo ESP8266 NodeMcu para a realização da conexão com o wi-fi e o uso do protocolo MQTT ligado ao broker ThingSpeak, que recebe os dados do resistor de umidade.
 
 ### Software desenvolvido e documentação do codigo
 ```cpp
@@ -79,19 +79,19 @@ void loop()
   }
 ```
 ### Descrição do Hardware utilizado:
-- Módulo ESP8266 NODEMCU;
-- jumpers (macho-macho e macho-femea);
-- Protoboard branco de 830 pontos;
-- Resistor de umidade solo;
-- Modulo Relê 5V;
 - Arduino Uno R3;
-- Cabo USB (para conexão do nodemcu com o notebook);
 - Cabo USB para conexão do Arduino com o powerbank;
-- Powerbank(para fornecer a energia para o Arduino);
-- Mini bomba submersa 5V;
+- Cabo USB (para conexão do nodemcu com o notebook);
+- Jumpers (macho-macho e macho-femea);
 - Mangueira de PVC (1 metro);
+- Mini bomba submersa 5V;
+- Módulo ESP8266 NODEMCU;
+- Módulo Relê 5V;
 - Planta;
 - Pote com agua;
+- Powerbank(para fornecer a energia para o Arduino);
+- Protoboard branco de 830 pontos;
+- Resistor de umidade solo;
 
 ### Descrição do Software utilizado
 - Arduino IDE;
