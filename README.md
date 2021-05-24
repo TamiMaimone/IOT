@@ -102,5 +102,5 @@ void loop()
 - Módulo de comunicação: ESP8266 NODEMCU;
 
 ### Links
-- MAIMONE, Tamiris. Medidor de umidade e irrigação do solo. Youtube, 22/05/2021. Disponível em: <https://www.youtube.com/watch?v=fd_Dk314_LI>.
-- MEDIÇÃO da umidade do solo, Thingspeak, 2021. Disponível em: <https://thingspeak.com/channels/1387329>. Acesso em: 22/05/2021.
+- MAIMONE, Tamiris. Youtube. Medidor de umidade e irrigação do solo, (2021). Disponível em: https://www.youtube.com/watch?v=fd_Dk314_LI. Acesso em: 22 maio 2021.
+- Thingspeak. Mediçaõ da umidade do solo, (2021). Disponível em: https://thingspeak.com/channels/1387329. Acesso em: 22 maio 2021.
